@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	body{
+		font-family:sans-serif;
+		background-color:lightslategrey;
+	}
+	.card{
+		background-color: white;
+		text-align: center;
+		padding:30px;
+		margin:auto;
+		width:30%;
+		margin-top:250px;
+		border-radius:20px;
+	}
+	label
+	{
+		display:inline-block;
+		padding:5px;
+		margin:5px;
+		width:140px;
+		font-weight:bold;
+		font-size:18px;	
+	}
+	input{
+		width:180px;
+		padding:10px;
+		margin:10px;
+		font-weight:bold;
+		font-size:16px;
+		color:black;
+	}
+	input:hover{
+		background-color:lightgrey;
+		color:black;
+	}
+	#submit{
+		margin-left:100px;
+	}
+	#submit:hover
+	{
+		background:linear-gradient(-18deg,white,green,orange);
+	}
+	p{
+		margin-left:150px;
+	}
+	marquee{
+			font-weight: bold;
+			font-style: italic;
+	}
+</style>
+</head>
+<body>
+		
+	
+	<div class="card">
+		<marquee>Enter RollNumber (or) Date Of Birth and Get Results</marquee>
+		<form action="getdetails" method="post">
+			<label>Roll Number :</label>
+			<input type="text" name="rnum" placeholder="Enter rollNubmer">
+			<p>or</p>
+			<label>Date Of Birth :</label>
+			<input type="date" name="dob"><br><br><br>
+			<input type="submit" name="submit" id="submit" value="Submit">
+		</form>
+	</div>
+	
+</body>
+</html>

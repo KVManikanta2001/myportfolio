@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>registration.com</title>
+<style>
+	body {
+		background-color: lightgrey;
+		background-image: url("https://img.freepik.com/free-vector/education-pattern-background-doodle-style_53876-115365.jpg?w=826&t=st=1692446797~exp=1692447397~hmac=1f0b4df16dfdba2ed0e7d6285f6aaa08802c3527c9b374978d673f1a03c22efa");
+	}
+	
+	.container 
+	{
+		margin-top:200px;
+		text-align:center;
+		border :1px black solid;
+		background-color:transparent;
+		width:40%;
+		margin-left:600px;
+		padding: 10px;
+		border-radius: 20px;
+		backdrop-filter: blur(10px);
+	}
+	label {
+		padding:5px;
+		margin:5px;
+		display:inline-block;
+		width:140px;
+		font-size:19px;
+		font-weight:bold;
+			}
+		input {
+			padding:10px;
+			margin:5px;
+			font-size:15px;
+			font-weight:bold;
+			border-radius:20px;
+		}
+		#mm{
+			width:200px;
+		}
+		h1 {
+			text-decoration:underline black;
+			font-style:italic;
+			font-weight: bold;
+		}
+		#submit {
+			width:180px;
+			height:40px;
+		}
+		input:hover {
+			     background-color:darkgrey;
+			     
+					}
+		
+		
+</style>
+</head>
+<body>
+	<div class="container">
+	<h1>Add Student Details</h1>
+	<form action="Add" method="post" name="myform" onsubmit="return valid()">
+		<label>Student Name</label>
+		<b>:</b><input id="mm" type="text" name="stuname" placeholder="Enter Student Name"><br>
+		<label>RollNumber</label>
+		<b>:</b><input id="mm" type="text" name="rnumber" placeholder="Enter RollNumber" pattern="[0-9]{6}" title="rollNumber Must Be Numbers and 6 Digits"><br>
+		<label>PhoneNumber</label>
+		<b>:</b><input id="mm" type="text" name="pNumber" placeholder="Enter PhoneNumber" pattern="[0-9]{10}"><br>
+		<label >Date Of Birth </label>
+		<b>:</b><input id="mm" type="date" name="dob" ><br>
+		<label>Gender </label>
+		<b>:</b><input type="radio" name="s2" value="Male" id="01">Male
+		<input  type="radio" name="s2" value="Female" id="02">FeMale<br><br>
+		<input type="reset" name="s1" value="Reset" id="submit">
+		<input type="submit" name="s1" Value="Submit" id="submit">
+	</form>
+	</div>
+	
+	<script>
+		function valid()
+		{
+			var sname = document.myform.stuname.value;
+			var rnumber=document.myform.rnumber.value;
+			var pnumber=document.myform.pNumber.value;
+			var cdate=new Date();
+			var dob = new Date(document.myform.dob.value);
+			var d =document.myform.dob.value;
+			var gender=document.forms["myform"] ["s2"];
+			
+			if(sname=="")
+			{
+				alert("Student Name must not be empty");
+				return false;
+			}
+			else if(rnumber=="")
+			{
+				alert("Roll Number must not be Empty");
+				return false;
+			}
+			else if(pnumber=="")
+			{
+				alert("Phone Number Must Not Be Empty");
+				return false;
+			}
+			else if(cdate<dob)
+			{
+				alert("Date of birth must be lower than currentdate");
+				return false;
+			}
+			else if(d=="")
+			{
+				alert("date of birth must not be empty");
+				return false;
+			}
+			
+			else if(gender[0].checked==false && gender[1].checked==false)
+			{
+				alert("Select must any one value");
+				return false;
+			}
+			
+			
+			
+		}
+		
+		
+	</script>
+</body>
+</html>

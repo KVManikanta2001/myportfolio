@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Portfolio - Veera Manikanta k</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://res.cloudinary.com/dffu1ungl/image/upload/v1709369514/Untitled_design__2_-removebg-preview_frdys8.png"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="portfolio-logo">Portfolio</a>
+      <i class="fa-solid fa-bars" id="menu-bar-icone"></i>
+      <nav class="navbar-container">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#project">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-container">
+        <h3>Hello, I am</h3>
+        <h1>K Veera Manikanta</h1>
+        <h1>I'm a <span>Full Stack Developer</span></h1>
+        <p>
+          Building Bridges Between Front-End and Back-End, Transforming Ideas
+          into Web Reality
+        </p>
+        <div class="socila-media-profile">
+          <a
+            href="https://www.linkedin.com/in/kveeramanikanta/"
+            target="_blank"
+            class="tooltip-icon"
+            ><i class="fa-brands fa-linkedin-in"></i>
+            <span class="tooltiptext-icon">LinkedIn</span>
+          </a>
+
+          <a
+            href="https://github.com/KVManikanta2001"
+            target="_blank"
+            class="tooltip-icon"
+            ><i class="fa-brands fa-github"></i>
+            <span class="tooltiptext-icon">GitHub</span>
+          </a>
+
+          <a
+            href="mailto:veeramanikantakoncha17@gmail.com"
+            target="_blank"
+            class="tooltip-icon"
+          >
+            <i class="fas fa-envelope"></i>
+            <span class="tooltiptext-icon">Gmail</span>
+          </a>
+        </div>
+        <a href="/images/Resume.pdf" download class="button"
+          >Download Resume <i class=""></i
+        ></a>
+      </div>
+      <div class="home-img">
+        <img src="" alt="myImg" />
+        
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-container">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>
+          I’m a Full Stack Developer with a strong foundation in HTML, CSS,
+          JavaScript, Bootstrap, Jdbc , Oracle, SQL, and PLSQL. 
+          I’m passionate about using these skills to develop innovative
+          web applications that are user-friendly. I’m always eager to learn
+          more about web development and marketing. I enjoy the challenge of
+          coding and solving real-world problems. Currently, I’m looking for
+          opportunities to join a team that values innovation and shares my
+          enthusiasm for technology.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2 class="heading">Technical <span>Skills</span></h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <img
+            src="https://res.cloudinary.com/dffu1ungl/image/upload/v1724221811/c573ff5552d6da9a1d28ec4e27cd1445-removebg-preview_w2hkck.png"
+            alt="skills1"
+          />
+          <p>HTML</p>
+        </div>
+        <div class="skill-card">
+          <img
+            src="https://res.cloudinary.com/dffu1ungl/image/upload/v1724222003/ac262626eb1e924c85b8b68fe97c2213-removebg-preview_kihgsi.png"
+            alt="skills2"
+          />
+          <p>CSS</p>
+        </div>
+        <div class="skill-card">
+          <img
+            src="https://res.cloudinary.com/dffu1ungl/image/upload/v1709472150/Bootstrap-removebg-preview_opsbke.png"
+            alt="skills3"
+          />
+          <p>Bootstrap</p>
+        </div>
+        <div class="skill-card">
+          <img
+            src="https://res.cloudinary.com/dffu1ungl/image/upload/v1712139571/10_Best_Cheat_Sheets_That_A_Programmer_Must_Have-removebg-preview_daf4wt.png"
+            alt="skills4"
+          />
+          <p>JavaScript</p>
+        </div>
+        <div class="skill-card">
+          <img
+            src="https://res.cloudinary.com/dffu1ungl/image/upload/v1712150985/Windows_Vista__70-620__Part_1__Install_and_Getting_Started-removebg-preview_dlar2d.png"
+            alt="skills5"
+          />
+          
+          <p>SQL</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="service" id="services">
+      <h2 class="heading">My<span> Services</span></h2>
+      <div class="services-container">
+        <div class="service-card">
+          <i class="fa-solid fa-code"></i>
+          <h3>Web Development</h3>
+          <p>
+            As a web developer, I create dynamic and functional websites using a
+            combination of front-end and back-end technologies. I specialize in
+            building responsive, user-friendly interfaces that enhance the user
+            experience. Whether it’s an e-commerce site, a blog, or a custom web
+            application, I bring ideas to life through code.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <i class="fa-solid fa-code"></i>
+          <h3>UI Development</h3>
+          <p>
+            UI (User Interface) development focuses on creating the visual
+            elements of a website or application. I specialize in turning design
+            mockups into interactive interfaces using HTML, CSS, and JavaScript.
+            My goal is to ensure that users have a seamless and enjoyable
+            experience while interacting with your product.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <i class="fa-solid fa-palette"></i>
+          <h3>UI Designing</h3>
+          <p>
+            UI design is all about aesthetics and usability. As a UI designer, I
+            craft visually appealing layouts, choose color schemes, and create
+            intuitive navigation. I pay attention to details like typography,
+            spacing, and consistency. My designs aim to enhance the overall look
+            and feel of your digital product.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="project">
+      <h2 class="heading">My<span> Projects</span></h2>
+      <div class="project-container">
+        <div class="project-card">
+          <img
+            src="https://res.cloudinary.com/dffu1ungl/image/upload/v1709376742/Netflix__Here_s_the_list_of_top_20_trending_movies_series_in_December_dzjeyo.jpg"
+            alt="project1"
+            class="project-image"
+          />
+          <div class="project-content">
+            <h4>Netflix Clone</h4>
+            <p>
+              Netflix clone website is created using ReactJS which is the
+              replica of the popular streaming platform - Netflix, complete with
+              similar features and user interface. Username: saira, Password:
+              princess@9
+            </p>
+            <a href="https://reactjsmini.ccbp.tech/" target="_blank"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img
+            src="https://res.cloudinary.com/dffu1ungl/image/upload/v1709380062/Free_Vector___E-commerce_round_composition_iyyl6b.jpg"
+            alt="project2"
+            class="project-image"
+          />
+          <div class="project-content">
+            <h4>NxT Trendz</h4>
+            <p>
+              NxT Trendx is a E-Commerce website built using ReactJS. It's
+              replica of Flipkart or Amaxon. Username: rahul, Password:
+              rahul@2021
+            </p>
+            <a href="https://babbutrendzz.ccbp.tech/"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img
+            src="https://res.cloudinary.com/dffu1ungl/image/upload/v1709380058/Download_Rock_Paper_Scissors_Neon_Icons_for_free_vngpjq.jpg"
+            alt="project3"
+            class="project-image"
+          />
+          <div class="project-content">
+            <h4>Rock Paper Scissor</h4>
+            <p>
+              Rock Paper Scissor is an user friendly game developed using
+              ReactJS.
+            </p>
+            <a href="https://babbugames.ccbp.tech/"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img
+            src="https://res.cloudinary.com/dffu1ungl/image/upload/v1709380059/%D9%85%D8%A7_%D9%87%D9%8A_%D9%85%D8%B5%D9%81%D9%88%D9%81%D8%A9_%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D9%88%D9%82%D8%AA_%D9%88%D9%83%D9%8A%D9%81_%D8%AA%D8%B3%D8%A7%D8%B9%D8%AF%D9%83_%D8%B9%D9%84%D9%89_%D8%A3%D9%86_%D8%AA%D9%83%D9%88%D9%86_%D8%A3%D9%83%D8%AB%D8%B1_%D8%A5%D9%86%D8%AA%D8%A7%D8%AC%D9%8A%D8%A9_r6khwk.jpg"
+            alt="project4"
+            class="project-image"
+          />
+          <div class="project-content">
+            <h4>Task Managing App</h4>
+            <p>
+              Task Managing App was created using ReactJS which allows user to
+              manage their tasks.
+            </p>
+            <a href="https://taskmanaging.ccbp.tech/"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img
+            src="https://res.cloudinary.com/dffu1ungl/image/upload/v1710001008/Premium_Vector___Jobs_search_recruitment_hiring_employment_find_job_openings_opportunities_for_career_growth_young_unemployed_man_uses_a_magnifying_glass_to_search_for_recruitment_illustration_q77nfg.jpg"
+            alt="project6"
+            class="project-image"
+          />
+          <div class="project-content">
+            <h4>Jobby App</h4>
+            <p>
+              Jobby was developed using ReactJS. Jobby app is a job searching
+              platform. Username: rahul, Password: rahul@2021
+            </p>
+            <a href="https://babbucreations.ccbp.tech/login"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img
+            src="https://res.cloudinary.com/dffu1ungl/image/upload/v1709380071/38833_1_apfnyy.jpg"
+            alt="project7"
+            class="project-image"
+          />
+          <div class="project-content">
+            <h4>Food Much</h4>
+            <p>
+              Food Much was built using HTML, CSS, Flex-box. Food Much is a
+              Responsive Food Delivery App.
+            </p>
+            <a href="https://foodhubmunch.ccbp.tech/"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="certificates-container" id="certificates">
+      <h2 class="heading">My<span> Certificates</span></h2>
+      <div class="certificates-card">
+        <img
+          src="#"
+          alt="static"
+        />
+        <img
+          src="#"
+          alt="responsive"
+        />
+        <img
+          src="#"
+          alt="dynamic"
+        />
+        <img
+          src="#"
+          alt="JS essentials"
+        />
+        <img
+          src="#"
+          alt="python"
+        />
+        <img
+          src="#"
+          alt="sql"
+        />
+        
+        <img
+          src="#"
+          alt="git"
+        />
+        
+      </div>
+    </section>
+
+    <script
+      src="https://topmate-embed.s3.ap-south-1.amazonaws.com/v1/topmate-embed.js"
+      class="scrolling"
+      user-profile="https://topmate.io/embed/profile/prasanya_fullstack_developer?theme=262840"
+      btn-style='{"backgroundColor":"#59b2f4","color":"#fff","border":"1px solid ", "box-shadow": "0 0 1rem #59b2f4"}'
+      embed-version="v1"
+      button-text="Let's Connect"
+      position-right="10px"
+      position-bottom="70px"
+      custom-padding="0px"
+      custom-font-size="14px"
+      custom-font-weight="500"
+      custom-width="130px"
+      async=""
+      defer=""
+    ></script>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input
+          type="hidden"
+          name="access_key"
+          value="46bb3fe9-0398-4403-81a9-49503f8b3a60"
+        />
+        <div class="input-card">
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter Your Name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter Your Mail Id"
+            required
+          />
+        </div>
+
+        <div class="input-card">
+          <input
+            type="number"
+            placeholder="Enter Your Mobile Number"
+            required
+            name="number"
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Enter Subject Of The Mail"
+            required
+          />
+        </div>
+
+        <textarea
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Enter Your Message Here..."
+        ></textarea>
+        <button type="submit" class="button">Submit</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <h2>Copyrights &copy; 2024</h2>
+      </div>
+      <div class="contact-link">
+        <h2>
+          Need a Portfolio Website Like This | Contact
+          <a
+            href="https://www.linkedin.com/in/kveeramanikanta/"
+            target="_blank"
+            class="tooltip"
+            >k veera manikanta <span class="tooltiptext">LinkedIn</span></a
+          >
+        </h2>
+      </div>
+
+      <div class="footer-icons">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>

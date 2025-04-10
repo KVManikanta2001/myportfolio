@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="ISO-8859-1">
+<title>www.classBunkers.com</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		setInterval(changecolor,1000);
+		function changecolor()
+		{
+			var x=document.getElementById("heading");
+			if(x.style.color=="black")
+				x.style.color="red";
+			else if(x.style.color=="red")
+				x.style.color="blue";
+			else if(x.style.color=="blue")
+				x.style.color="pink";
+			else if(x.style.color=="pink")
+				x.style.color="cyan";
+			else if(x.style.color=="cyan")
+				x.style.color="white";
+			else if(x.style.color=="white")
+				x.style.color="red";
+			else x.style.color="black";
+		}
+	</script>
+	<style>
+		
+		body {
+			border:none;
+			padding: 0px;
+			margin:0px;
+			 }
+			h3 {
+				margin-top:10px;
+				}
+		ul {
+			display: flexbox;
+			float:left;
+			padding: 10px;
+			background-color: skyblue;
+			width:100%;
+			}
+		a {
+			float:left;
+			text-decoration:none;
+			padding-left:10px;
+			padding-right:80px;
+			font-size:19px;
+			text-align: center;
+			border: 1px 0px solid black;
+		}
+		marquee
+		{
+			padding-top:15px;
+		}
+		p{
+			font-size:20px;
+			font-weight: bold;
+			font-style: italic;
+		}
+		a:hover
+		{
+			padding-left:10px;
+			padding-right:60px;
+			font-size:19px;
+			color :black;
+			border: 2px dotted black;
+		}
+		.name
+		 {
+			background-color:black;
+		}
+		.carousel
+		{
+			margin-top:40px;
+		}
+		
+			
+	</style>
+</head>
+<body>
+			
+				<marquee class="name">
+				<p id="heading">
+				<img src="https://www.animatedimages.org/data/media/481/animated-duck-image-0064.gif" height="40px">
+				Student Management System was originally developed by K Veera Manikanta at 
+				Mani Software Solutions. It was released in 13/May/2001.This software  works on Appache Tomcat Sever.It is Totaly java based Application.
+				<img src="https://www.animatedimages.org/data/media/481/animated-duck-image-0064.gif" height="40px"></p>
+			
+			</marquee>
+			</div>
+			<ul>
+				<a href="Home.html">Home</a>
+				<a href="#">About</a>
+				<a href="Add.html">Add Details</a>
+				<a href="#">Student Updates</a>
+				<a href="#">Time Tables</a>
+				<a href="getdetails.html">Get Details</a>
+				<a href="login.html">Logout</a>
+			</ul>
+		
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://img.freepik.com/free-photo/top-view-desk-items-arrangement_23-2149320943.jpg?w=1380&t=st=1692442682~exp=1692443282~hmac=1e6e8977320c0e32ac22732115d5ce3c61ee8540522e61794491ac4ce5b02e31"
+       width="100%" height="700px" alt="...">
+    </div>
+    <div class="carousel-item ">
+      <img src="https://img.freepik.com/premium-psd/flat-lay-board-with-supplies-school_23-2148278160.jpg?w=1380" 
+      width="100%" height="700px" alt="...">
+    </div>
+    <div class="carousel-item ">
+      <img src="https://img.freepik.com/free-vector/back-school-timetable-flat-design_23-2148616544.jpg?w=1380&t=st=1692443772~exp=1692444372~hmac=d423a7e62d6866e9620263ff19aa20de567f91fb18b9865a506640644492216d" 
+       width="100%" height="700px" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+	
+		
+</body>
+</html>
